@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAutoOlio2021", "WpfAutoOlio2021\WpfAutoOlio2021.csproj", "{1C27851B-1399-4CC7-9025-D23C5DF7DE95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAutoOlio2021.Tests", "WpfAutoOlio2021.Tests\WpfAutoOlio2021.Tests.csproj", "{8E2B7BD4-F61E-46A2-B800-5AFDDEB1C38F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C27851B-1399-4CC7-9025-D23C5DF7DE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C27851B-1399-4CC7-9025-D23C5DF7DE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C27851B-1399-4CC7-9025-D23C5DF7DE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C27851B-1399-4CC7-9025-D23C5DF7DE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2B7BD4-F61E-46A2-B800-5AFDDEB1C38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2B7BD4-F61E-46A2-B800-5AFDDEB1C38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2B7BD4-F61E-46A2-B800-5AFDDEB1C38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2B7BD4-F61E-46A2-B800-5AFDDEB1C38F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33A2368D-FC3E-4C40-A0E0-2C5CC7078138}
+	EndGlobalSection
+EndGlobal

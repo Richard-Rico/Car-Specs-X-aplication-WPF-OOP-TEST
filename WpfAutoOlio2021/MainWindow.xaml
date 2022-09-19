@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfAutoOlio2021.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAutoOlio2021"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,2,-31" Background="#FF689B96">
+        <Button x:Name="btnAuto1" Content="Save Auto 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="251,271,0,0" Height="29" Click="btnAuto1_Click" Background="#FFD4D4D4" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light"/>
+        <Button x:Name="btnAuto1Info" Content="Auto1 Info" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="251,305,0,0" Height="29" Click="btnAuto1Info_Click" Background="#FFD4D4D4" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light"/>
+        <TextBox x:Name="txtColor" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Margin="326,69,0,0"/>
+        <TextBox x:Name="txtModel" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Margin="326,103,0,0"/>
+        <TextBox x:Name="txtMaxSpeed" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Margin="326,137,0,0"/>
+        <Label x:Name="lblColor" Content="Color" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,71,0,0" FontFamily="Microsoft YaHei Light"/>
+        <Label x:Name="lblModel" Content="Model" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,103,0,0" FontFamily="Microsoft YaHei Light"/>
+        <Label x:Name="lblMaxSpeed" Content="Max Speed" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,137,0,0" FontFamily="Microsoft YaHei Light"/>
+        <Button x:Name="btnStar" Content="Star" HorizontalAlignment="Left" VerticalAlignment="Top" Width="34" Margin="251,339,0,0" Height="29" Click="btnStar_Click" Background="#FFB0B0B0" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light"/>
+        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" VerticalAlignment="Top" Width="34" Margin="337,339,0,0" Height="29" Click="btnStop_Click" Background="#FFB0B0B0" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light"/>
+        <Button x:Name="btnIndicator" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Margin="290,339,0,0" Height="29" Background="#FFB0B0B0" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light"/>
+        <Button x:Name="btnAuto2" Content="Save Auto 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="391,271,0,0" Height="29" Click="btnAuto2_Click" Background="#FFD4D4D4" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light"/>
+        <Button x:Name="btnAuto2Info" Content="Auto2 Info" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="391,305,0,0" Height="29" Click="btnAuto2Info_Click" Background="#FFD4D4D4" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light"/>
+        <Button x:Name="btnStar2" Content="Star2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="44" Margin="391,339,0,0" Height="29" Click="btnStar_Click" Background="#FFB0B0B0" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light"/>
+        <Button x:Name="btnStop2" Content="Stop2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="44" Margin="483,339,0,0" Height="29" Click="btnStop_Click" Background="#FFB0B0B0" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light"/>
+        <Button x:Name="btnIndicator2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Margin="438,339,0,0" Height="29" Background="#FFB0B0B0" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light"/>
+        <Label x:Name="lbltitle" Content="CAR SPECS X" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="315,1,0,0" FontFamily="Microsoft YaHei Light" FontSize="24" Cursor=""/>
+        <RadioButton x:Name="rbDiesel" Content="Diesel" HorizontalAlignment="Left" VerticalAlignment="Top" GroupName="EngineType   " Margin="251,209,0,0" FontFamily="Microsoft YaHei Light" Checked="EngineButtons_Checked"/>
+        <RadioButton x:Name="rbGasoline" Content="Gasoline" HorizontalAlignment="Left" VerticalAlignment="Top" GroupName="EngineType" Margin="357,209,0,0" FontFamily="Microsoft YaHei Light" Checked="EngineButtons_Checked"/>
+        <RadioButton x:Name="rbElectric" Content="Electric" HorizontalAlignment="Left" VerticalAlignment="Top" GroupName="EngineType   " Margin="470,209,0,0" FontFamily="Microsoft YaHei Light" Checked="EngineButtons_Checked"/>
+        <TextBox x:Name="txtHorsePower" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Margin="326,171,0,0"/>
+        <Label x:Name="lblHorsePower" Content="Horsepower" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,171,0,0" FontFamily="Microsoft YaHei Light"/>
+        <ComboBox x:Name="cbTransMission" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="251,237,0,0" Height="29"/>
+        <ComboBox x:Name="cbTransMission2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="391,237,0,0" Height="29"/>
+        <Button x:Name="btnAccelerate" Content="Accel." HorizontalAlignment="Left" VerticalAlignment="Top" Width="59" Margin="251,373,0,0" Height="29" Background="#FFB0B0B0" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light" Click="btnAccelerate_Click"/>
+        <Button x:Name="btnBrake" Content="Brake" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Margin="315,373,0,0" Height="29" Background="#FFB0B0B0" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light" Click="btnBrake_Click"/>
+        <TextBox x:Name="txtCurrentSpeed" HorizontalAlignment="Left" Height="67" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" Margin="91,237,0,0" Text="0" FontSize="48" FontFamily="Microsoft YaHei Light" Background="#FF689B96" BorderBrush="{x:Null}"/>
+        <Image x:Name="imgVolvoLogo" HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="103" Margin="75,71,0,0" Source="volvo logo (2).png"/>
+        <Image x:Name="imgFordLogo" HorizontalAlignment="Left" Height="61" VerticalAlignment="Top" Width="118" Margin="599,71,0,0" Source="ford logo.png"/>
+        <Label x:Name="lbKm_h" Content="Km/h" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="147,272,0,0" FontFamily="Microsoft YaHei Light" FontWeight="Bold" FontSize="14" RenderTransformOrigin="0.5,0.75"/>
+        <Button x:Name="btnAccelerate2" Content="Accel.2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Margin="391,373,0,0" Height="29" Background="#FFB0B0B0" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light" Click="btnAccelerate2_Click"/>
+        <Button x:Name="btnBrake2" Content="Brake2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Margin="461,373,0,0" Height="29" Background="#FFB0B0B0" BorderBrush="{x:Null}" FontFamily="Microsoft YaHei Light" RenderTransformOrigin="0.647,0.621" Click="btnBrake2_Click"/>
+        <TextBox x:Name="txtCurrentSpeed2" HorizontalAlignment="Left" Height="67" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" Margin="641,237,0,0" Text="0" FontSize="48" FontFamily="Microsoft YaHei Light" Background="#FF689B96" BorderBrush="{x:Null}"/>
+        <Label x:Name="lbKm_h_Copy" Content="Km/h" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="692,272,0,0" FontFamily="Microsoft YaHei Light" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="lblMaxSpeedInfo" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="251,43,0,0" Width="355" FontFamily="Microsoft YaHei Light" Background="{x:Null}" Foreground="#FF851F1F"/>
+        <Label x:Name="lblHorsePowerInfo" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="251,26,0,0" Width="355" FontFamily="Microsoft YaHei Light" Background="{x:Null}" Foreground="#FF851F1F"/>
+    </Grid>
+</Window>

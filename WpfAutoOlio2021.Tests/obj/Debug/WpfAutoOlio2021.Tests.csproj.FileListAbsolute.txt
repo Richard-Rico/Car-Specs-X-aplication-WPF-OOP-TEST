@@ -1,0 +1,17 @@
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\WpfAutoOlio2021.Tests.dll
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\WpfAutoOlio2021.Tests.pdb
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\WpfAutoOlio2021.exe
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\WpfAutoOlio2021.pdb
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\WpfAutoOlio2021.exe.config
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\obj\Debug\WpfAutoOlio2021.Tests.csproj.AssemblyReference.cache
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\obj\Debug\WpfAutoOlio2021.Tests.csproj.CoreCompileInputs.cache
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\obj\Debug\WpfAutoOlio2021.Tests.csproj.CopyComplete
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\obj\Debug\WpfAutoOlio2021.Tests.dll
+C:\Users\richa\source\repos\Careeria\Kurssi 2\WpfAutoOlio2021\WpfAutoOlio2021.Tests\obj\Debug\WpfAutoOlio2021.Tests.pdb
